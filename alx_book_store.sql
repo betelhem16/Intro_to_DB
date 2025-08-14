@@ -30,7 +30,7 @@ CREATE TABLE Orders (
 );
 
 CREATE TABLE Order_Details (
-    orderdetailid INT PRIMARY KEY AUTO_INCREMENT,
+    orderdetailid INT PRIMARY KEY,
     order_id INT NOT NULL,
     book_id INT NOT NULL,
     quantity DOUBLE NOT NULL,
