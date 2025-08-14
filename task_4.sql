@@ -1,4 +1,3 @@
--- Select the alx_book_store database
 USE alx_book_store;
 
 -- Query the INFORMATION_SCHEMA to get the table structure
@@ -13,4 +12,4 @@ FROM
     INFORMATION_SCHEMA.COLUMNS
 WHERE
     TABLE_SCHEMA = 'alx_book_store'
-    AND TABLE_NAME = 'books';
+    AND TABLE_NAME = 'Books';
